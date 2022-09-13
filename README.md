@@ -3,7 +3,7 @@
 
 ## Donate
 
-- XMR: 49y6aGD4xSg7gDqkkMFJCcgHVmLCYdn4dGybkc49zWPqDYEipk1sdQrCGAmS6uVSnzQiPedfpfREd8Fcc6PFpTE3DN81BFs
+
 - BTC: 1assTGVhuCnrix5LvhL2GXEkSS3fS2XBT
 - ETH: 0x872187EECC9523af2A9BcA6B1e9b95B516c88f5e
 
@@ -19,6 +19,11 @@ python3 main.py -h
 
 ## Release History
 
+- 0.2
+  - Optimized the code it now check 6000 addresses per second
+  - Still need to implement offline mode
+  - Still need to implement proxy/vpn support so make sure to run this with a vpn enabled or an auto switch proxy app
+  
 - 0.1
   - Fixed the API and spaghetti code problems, also now it gives you the Private key instead of mnemonic key, more accurate that way
 - 0.0.1
